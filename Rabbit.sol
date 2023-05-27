@@ -1,39 +1,6 @@
 //SPDX License Identifier: MIT
 pragma solidity ^0.8.19;
 
-/**
-                             ,
-                            /|      __
-                           / |   ,-~ /
-                          Y :|  //  /
-                          | jj /( .^
-                          >-"~"-v"
-                         /       Y
-                        jo  o    |
-                       ( ~T~     j
-                        >._-' _./
-                       /   "~"  |
-                      Y     _,  |
-                     /| ;-"~ _  l
-                    / l/ ,-"~    \
-                    \//\/      .- \
-                     Y        /    Y   
-                     l       I     !
-                     ]\      _\    /"\
-                    (" ~----( ~   Y.  )
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~
-
- _______          _       ______   ______   _____  _________  
-|_   __ \        / \     |_   _ \ |_   _ \ |_   _||  _   _  | 
-  | |__) |      / _ \      | |_) |  | |_) |  | |  |_/ | | \_| 
-  |  __ /      / ___ \     |  __'.  |  __'.  | |      | |     
- _| |  \ \_  _/ /   \ \_  _| |__) |_| |__) |_| |_    _| |_    
-|____| |___||____| |____||_______/|_______/|_____|  |_____|   
-                                                              
-    https://twitter.com/Karrot_gg 
-
- */
-
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/utils/math/Math.sol";
