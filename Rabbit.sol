@@ -11,9 +11,9 @@ import "./IRandomizer.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 /**
-Rabbit: destroyer of $KARROT
+Rabbit: destroyer of $YGPEPE
 - Non-transferrable ERC721
-- Mintable by burning $KARROT
+- Mintable by burning $YGPEPE
 - Minted as one of 3 tiers: white, gold, diamond, which have different reward rates per attack for karrots in the stolen pool
 - Each rabbit has 5 HP (can fail 5 attacks, each failed attack is -1 HP), and has a 50/50 chance of attack success
 - When a rabbit loses all HP, it is burned
@@ -199,7 +199,7 @@ contract Rabbit is ERC721, Ownable, ReentrancyGuard {
 
     /**
     requestToMintRabbits:
-        requires prior approval of this contract to spend user's $KARROT!
+        requires prior approval of this contract to spend user's $YGPEPE!
         3 Args:
             _amount: number of rabbits to mint
             _isReroll: true if this is a reroll, false if it's a new mint

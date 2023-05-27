@@ -1,33 +1,6 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-/**
-     .--------.
-    / .------. \
-   / /        \ \
-   | |        | |
-  _| |________| |_
-.' |_|        |_| '.
-'._____ ____ _____.'
-|     .'____'.     |
-'.__.'.'    '.'.__.'
-'  )$&3b7*3=&*:.  .'
-|   '.'.____.'.'   |
-'.____'.____.'____.'
-'.________________.'
-
-
- _______     _ _  ______                      _     
-(_______)   | | |(_____ \           _        | |    
- _____ _   _| | | _____) )___ ___ _| |_ _____| |  _ 
-|  ___) | | | | ||  ____/ ___) _ (_   _) ___ | |_/ )
-| |   | |_| | | || |   | |  | |_| || |_| ____|  _ ( 
-|_|   |____/ \_)_)_|   |_|   \___/  \__)_____)_| \_)
-                                                    
-
-
- */
-
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
